@@ -17,6 +17,17 @@
     <h1>Teste em PHP</h1>
 
     <p>Seja bem vindo ao teste diario</p>
-    
+
+    <p>A Data e Hora são: <?php echo $dataHoraAtual;?></p>
+
+    Obtém data e hora atual!!!
+
+    <!--Obtém a data e hora atual-->
+
+<?php 
+//Horário e Data 
+$dataHoraAtual = date('Y-m-d H:i:s');
+?>
+
 </body>
 </html>
